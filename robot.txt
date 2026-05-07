@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+# Block folder sensitif jika ada
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /draft/
+
+# Sitemap
+Sitemap: https://kuh63.biz.id/sitemap.xml
+
+# Crawl delay untuk bot agresif
+Crawl-delay: 1
+
+# Khusus Yandex
+User-agent: Yandex
+Allow: /
+Clean-param: utm_source&utm_medium&utm_campaign
+
+# Khusus Bing
+User-agent: Bingbot
+Allow: /
+
+# Khusus Google
+User-agent: Googlebot
+Allow: /
